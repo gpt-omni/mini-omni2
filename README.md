@@ -36,6 +36,8 @@ Mini-Omni2 is an **omni-interactive** model. It can **understand image, audio an
 
 NOTE: need to unmute first.
 
+https://github.com/user-attachments/assets/37f94017-e645-44b9-b908-81dd0b36dca1
+
 
 ## ToDo
 - [ ] update interruption mechanism
