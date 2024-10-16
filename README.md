@@ -2,7 +2,7 @@
 # Mini-Omni2
 
 <p align="center">
-    <img src="./data/figures/.png" width="100%"/>
+    <img src="./data/7e958849421b1480554a98ae9ed7aa8.png.png" width="100%"/>
 </p>
 
 
