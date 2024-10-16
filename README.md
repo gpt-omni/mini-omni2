@@ -102,7 +102,7 @@ We use multiple sequences as the input and output of the model. In the input par
 **2. Multi-stage Training**:
 We propose an efficient alignment training method and conduct encoder adaptation, modal alignment, and multimodal fine-tuning respectively in the three-stage training.
 <p align="center">
-    <img src="./data/figures/training.png" width="100%"/>
+    <img src="./data/figures/training.jpeg" width="100%"/>
 </p>
 
 <!-- **3. Cases**:
