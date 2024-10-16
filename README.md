@@ -1,9 +1,9 @@
 
 # Mini-Omni2
 
-<!-- <p align="center">
-    <img src="./data/figures/title.png" width="100%"/>
-</p> -->
+<p align="center">
+    <img src="./data/figures/.png" width="100%"/>
+</p>
 
 
 <p align="center">
