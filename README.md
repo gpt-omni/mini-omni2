@@ -2,7 +2,7 @@
 # Mini-Omni2
 
 <p align="center">
-    <img src="./data/figures/github.png" width="90"/>
+    <img src="./data/figures/github.png" width="90%"/>
 </p>
 
 
@@ -133,5 +133,4 @@ You need start streamlit **locally** with PyAudio installed.
 - [OpenOrca](https://huggingface.co/datasets/Open-Orca/OpenOrca) and [MOSS](https://github.com/OpenMOSS/MOSS/tree/main) for alignment.
 
 ## Star History
-
 [![Star History Chart](https://api.star-history.com/svg?repos=gpt-omni/mini-omni2&type=Date)](https://star-history.com/#gpt-omni/mini-omni2&Date)
