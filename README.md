@@ -1,9 +1,9 @@
 
 # Mini-Omni2
 
-<!-- <p align="center">
-    <img src="./data/figures/title.png" width="100%"/>
-</p> -->
+<p align="center">
+    <img src="./data/figures/title_new.png" width="90%"/>
+</p>
 
 
 <p align="center">
@@ -11,6 +11,9 @@
 |     📑 <a href="https://arxiv.org/abs/2410.11190">Technical report</a> 
 </p>
 
+<h5 align="center"> If you like little Omni2, please give us a star⭐ and cite our <a href="(https://arxiv.org/abs/2410.11190)">paper</a>!</h2>
+
+## Introduction
 Mini-Omni2 is an **omni-interactive** model. It can **understand image, audio and text inputs and has end-to-end voice conversations with users**. Featuring **real-time voice output**, **omni-capable multimodal understanding** and flexible interaction **ability with interruption mechanism while speaking**.
 
 <p align="center">
@@ -41,6 +44,7 @@ https://github.com/user-attachments/assets/ad97ca7f-f8b4-40c3-a7e8-fa54b4edf155
 
 ## ToDo
 - [ ] update interruption mechanism
+- [ ] visual-assistant model and data
 
 
 ## Install
@@ -132,6 +136,19 @@ You need start streamlit **locally** with PyAudio installed.
 - [CosyVoice](https://github.com/FunAudioLLM/CosyVoice) for generating synthetic speech.
 - [OpenOrca](https://huggingface.co/datasets/Open-Orca/OpenOrca) and [MOSS](https://github.com/OpenMOSS/MOSS/tree/main) for alignment.
 
-<!-- ## Star History
+## Citation
 
+```bibtex
+@article{xie2024miniomni2opensourcegpt4ovision,
+      title={Mini-Omni2: Towards Open-source GPT-4o with Vision, Speech and Duplex Capabilities}, 
+      author={Zhifei Xie and Changqiao Wu},
+      year={2024},
+      eprint={2410.11190},
+      archivePrefix={arXiv},
+      primaryClass={eess.AS},
+      journal={ArXiv},
+      volume={abs/2410.11190},
+}
+```
+## Star History
 [![Star History Chart](https://api.star-history.com/svg?repos=gpt-omni/mini-omni2&type=Date)](https://star-history.com/#gpt-omni/mini-omni2&Date)
