@@ -1,9 +1,9 @@
 
 # Mini-Omni2
 
-<!-- <p align="center">
-    <img src="./data/figures/title.png" width="100%"/>
-</p> -->
+<p align="center">
+    <img src="./data/figures/github.png" width="90"/>
+</p>
 
 
 <p align="center">
@@ -132,6 +132,6 @@ You need start streamlit **locally** with PyAudio installed.
 - [CosyVoice](https://github.com/FunAudioLLM/CosyVoice) for generating synthetic speech.
 - [OpenOrca](https://huggingface.co/datasets/Open-Orca/OpenOrca) and [MOSS](https://github.com/OpenMOSS/MOSS/tree/main) for alignment.
 
-<!-- ## Star History
+## Star History
 
 [![Star History Chart](https://api.star-history.com/svg?repos=gpt-omni/mini-omni2&type=Date)](https://star-history.com/#gpt-omni/mini-omni2&Date)
