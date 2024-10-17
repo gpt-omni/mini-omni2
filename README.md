@@ -1,9 +1,9 @@
 
 # Mini-Omni2
 
-<p align="center">
-    <img src="./data/7e958849421b1480554a98ae9ed7aa8.png" width="100%"/>
-</p>
+<!-- <p align="center">
+    <img src="./data/figures/title.png" width="100%"/>
+</p> -->
 
 
 <p align="center">
@@ -14,7 +14,7 @@
 Mini-Omni2 is an **omni-interactive** model. It can **understand image, audio and text inputs and has end-to-end voice conversations with users**. Featuring **real-time voice output**, **omni-capable multimodal understanding** and flexible interaction **ability with interruption mechanism while speaking**.
 
 <p align="center">
-    <img src="./data/figures/framework.png" width="100%"/>
+    <img src="./data/figures/framework.jpeg" width="100%"/>
 </p>
 
 
@@ -36,7 +36,7 @@ Mini-Omni2 is an **omni-interactive** model. It can **understand image, audio an
 
 NOTE: need to unmute first.
 
-https://github.com/user-attachments/assets/37f94017-e645-44b9-b908-81dd0b36dca1
+https://github.com/user-attachments/assets/ad97ca7f-f8b4-40c3-a7e8-fa54b4edf155
 
 
 ## ToDo
