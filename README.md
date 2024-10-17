@@ -2,7 +2,7 @@
 # Mini-Omni2
 
 <p align="center">
-    <img src="./data/figures/github.png" width="90%"/>
+    <img src="./data/figures/back2.png" width="90%"/>
 </p>
 
 
