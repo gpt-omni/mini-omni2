@@ -2,7 +2,7 @@
 # Mini-Omni2
 
 <p align="center">
-    <img src="./data/figures/back2.png" width="90%"/>
+    <img src="./data/figures/github.png" width="90%"/>
 </p>
 
 
@@ -41,6 +41,7 @@ https://github.com/user-attachments/assets/ad97ca7f-f8b4-40c3-a7e8-fa54b4edf155
 
 ## ToDo
 - [ ] update interruption mechanism
+- [ ] visual-assistant model and data
 
 
 ## Install
@@ -132,5 +133,19 @@ You need start streamlit **locally** with PyAudio installed.
 - [CosyVoice](https://github.com/FunAudioLLM/CosyVoice) for generating synthetic speech.
 - [OpenOrca](https://huggingface.co/datasets/Open-Orca/OpenOrca) and [MOSS](https://github.com/OpenMOSS/MOSS/tree/main) for alignment.
 
+## Citation
+
+```bibtex
+@article{xie2024miniomni2opensourcegpt4ovision,
+      title={Mini-Omni2: Towards Open-source GPT-4o with Vision, Speech and Duplex Capabilities}, 
+      author={Zhifei Xie and Changqiao Wu},
+      year={2024},
+      eprint={2410.11190},
+      archivePrefix={arXiv},
+      primaryClass={eess.AS},
+      journal={ArXiv},
+      volume={abs/2410.11190},
+}
+```
 ## Star History
 [![Star History Chart](https://api.star-history.com/svg?repos=gpt-omni/mini-omni2&type=Date)](https://star-history.com/#gpt-omni/mini-omni2&Date)
