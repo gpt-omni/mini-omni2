@@ -11,6 +11,9 @@
 |     📑 <a href="https://arxiv.org/abs/2410.11190">Technical report</a> 
 </p>
 
+<h5 align="center"> If you like Omni2, please give us a star⭐ and cite our <a href="(https://arxiv.org/abs/2410.11190)">paper</a>!</h2>
+
+## Introduction
 Mini-Omni2 is an **omni-interactive** model. It can **understand image, audio and text inputs and has end-to-end voice conversations with users**. Featuring **real-time voice output**, **omni-capable multimodal understanding** and flexible interaction **ability with interruption mechanism while speaking**.
 
 <p align="center">
