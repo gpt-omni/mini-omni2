@@ -1,3 +1,9 @@
+import sys
+import os
+
+sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+from utils.vad import get_speech_timestamps, collect_chunks, VadOptions
+
 import streamlit as st
 import wave
 
@@ -15,7 +21,6 @@ import tempfile
 import librosa
 import traceback
 from pydub import AudioSegment
-from utils.vad import get_speech_timestamps, collect_chunks, VadOptions
 from datetime import datetime
 from PIL import Image
 import streamlit_webrtc
@@ -267,7 +272,7 @@ def main():
     mode = st.radio(
         "Select mode:",
         ("Audio-only", "Audio-vision"),
-        key="mode_selection", 
+        key="mode_selection",
         horizontal=True
     )
 

@@ -1,3 +1,9 @@
+import sys
+import os
+
+sys.path.append(os.path.dirname(os.path.abspath(__file__)))
+
+
 import flask
 import base64
 import tempfile
@@ -50,19 +56,19 @@ class OmniChatServer(object):
                     img_path = None
 
                 if img_path is not None:
-                    resp_generator = self.client.run_vision_AA_batch_stream(audio_f.name, img_f.name, 
+                    resp_generator = self.client.run_vision_AA_batch_stream(audio_f.name, img_f.name,
                                                                              stream_stride, max_tokens,
                                                                              save_path='./vision_qa_out_cache.wav')
                 else:
-                    resp_generator = self.client.run_AT_batch_stream(audio_f.name, stream_stride, 
+                    resp_generator = self.client.run_AT_batch_stream(audio_f.name, stream_stride,
                                                                       max_tokens,
                                                                       save_path='./audio_qa_out_cache.wav')
-                return Response(stream_with_context(self.generator(resp_generator)), 
+                return Response(stream_with_context(self.generator(resp_generator)),
                                 mimetype='multipart/x-mixed-replace; boundary=frame')
         except Exception as e:
             print(traceback.format_exc())
             return Response("An error occurred", status=500)
-            
+
     def generator(self, resp_generator):
         for audio_stream, text_stream in resp_generator:
             yield b'\r\n--frame\r\n'
@@ -87,4 +93,4 @@ def serve(ip='0.0.0.0', port=60808, device='cuda:0'):
 if __name__ == "__main__":
     import fire
     fire.Fire(serve)
-    
+

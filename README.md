@@ -44,7 +44,6 @@ https://github.com/user-attachments/assets/ad97ca7f-f8b4-40c3-a7e8-fa54b4edf155
 
 ## ToDo
 - [ ] update interruption mechanism
-- [ ] visual-assistant model and data
 
 
 ## Install
